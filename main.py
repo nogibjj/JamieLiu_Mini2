@@ -48,14 +48,14 @@ def bar_visual(df, col, jupyter_render):
         plt.show()
 
 
-def hist_visual(df, col, juputer_render):
+def hist_visual(df, col, jupyter_render):
     """histogram of a column over all airlines"""
     plt.figure(figsize=(10, 6))
     plt.hist(df[col])
     plt.xlabel(f"Number of {col}")
     plt.ylabel("Frequency")
     plt.title(f"Frequency of {col}")
-    if not juputer_render:
+    if not jupyter_render:
         plt.savefig(f"Frequency_of_{col}_histogram.png")
     else:
         plt.show()
