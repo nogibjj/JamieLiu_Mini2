@@ -94,9 +94,7 @@ def save_to_md():
         file.write("## Visualizations\n\n")
         file.write("### Incidents 85-99\n\n")
         file.write("![Incidents 85-99](incidents_85_99_over_Airlines.png)\n\n")
-        file.write(
-            "![Incidents 85-99](Frequency_of_incidents_85_99_histogram.png)\n\n"
-        )
+        file.write("![Incidents 85-99](Frequency_of_incidents_85_99_histogram.png)\n\n")
         file.write("### Fatal Accidents 85-99\n\n")
         file.write(
             "![Fatal Accidents 85-99](fatal_accidents_85_99_over_Airlines.png)\n\n"
@@ -112,9 +110,7 @@ def save_to_md():
         )
         file.write("### Incidents 00-14\n\n")
         file.write("![Incidents 00-14](incidents_00_14_over_Airlines.png)\n\n")
-        file.write(
-            "![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)\n\n"
-        )
+        file.write("![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)\n\n")
         file.write("### Fatal Accidents 00-14\n\n")
         file.write(
             "![Fatal Accidents 00-14](fatal_accidents_00_14_over_Airlines.png)\n\n"
@@ -130,5 +126,6 @@ def save_to_md():
         )
 
 
-if __name__ == "__main__":
-    save_to_md()
+# if __name__ == "__main__":
+#     save_to_md()
+#     print(g_describe())
